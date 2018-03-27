@@ -10,11 +10,13 @@ feeds/*
 *.zip
 *.gz
 magmi/
-/*
 test.php
-app/etc/local.xml
-app/etc/modules/Cm_RedisSession.xml
 OrderDetails.csv
 downloader/
 /skin/frontend/smartwave/porto/css/configed/*
 robots.txt
+/app/code/core
+/lib
+/dev
+/includes
+/errors
