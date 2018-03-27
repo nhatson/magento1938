@@ -1,35 +1,20 @@
-# Never save database creditentials in your repo. Keep a dummy copy with a different name eg "local.xml.dev" 
+downloader/cache.cfg
+Order_Report.csv
+.ssh/
+.bash_history
+/sitemap/sitemap.xml
+/var/*
+/media/
+feeds/*
+*.sql
+*.zip
+*.gz
+magmi/
+/*
+test.php
 app/etc/local.xml
-
-downloader
-# If you'd like to keep the downloader, use the following instead:
-# downloader/.cache
-# downloader/cache.cfg
-# downloader/connect.cfg
-
-# All of the var folders can be excluded.
-var/*
-!var/.htaccess
-
-# Remove generated files
-includes/*
-!includes/.htaccess
-
-
-media/*
-# If you'd like to commit media files, replace the above with the following:
-# media/catalog/product/cache
-# media/css
-# media/css_secure
-# media/js
-# media/js_secure
-
-
-# I use a global gitignore file for the following, but worth noting these:
-.DS_Store
-.phpstorm.meta.php
-.idea/
-.modman
-
-# Don't commit composer dependencies:
-composer/
+app/etc/modules/Cm_RedisSession.xml
+OrderDetails.csv
+downloader/
+/skin/frontend/smartwave/porto/css/configed/*
+robots.txt
